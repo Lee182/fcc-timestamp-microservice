@@ -13,3 +13,14 @@ the response is
   unix: 1420070400000
 }
 ```
+
+## GET http://locahost:3000/unix_date
+Likewise
+```GET http://locahost:3000/1420070400000```
+response is
+```javascript
+{
+  natural: 'January 1, 2015',
+  unix: 1420070400000
+}
+```
