@@ -14,8 +14,8 @@ Given that the string after is in the date syntax
 the response is
 ```javascript
 {
-  unix: 1420070400000
-  natural: 'January 1, 2015',
+  unix: 1420070400000,
+  natural: 'January 1, 2015'
 }
 ```
 
@@ -25,8 +25,8 @@ Likewise
 response is
 ```javascript
 {
-  unix: 1420070400000
-  natural: 'January 1, 2015',
+  unix: 1420070400000,
+  natural: 'January 1, 2015'
 }
 ```
 
