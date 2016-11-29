@@ -1,6 +1,12 @@
 const moment = require('moment')
 const http = require('http')
 const url = require('url')
+
+let port = 3000
+if (process.env.PRODUCTION === 'true') {
+  port = 80
+}
+
 const unix2natural = require('./unix2natural.js')
 const app = http.createServer(function(req, res){
   let myres = {
@@ -24,6 +30,6 @@ const app = http.createServer(function(req, res){
   res.end()
 })
 
-app.listen(3000, function(a){
+app.listen(port, function(a){
   console.log('server started at http://localhost:3000/')
 })
