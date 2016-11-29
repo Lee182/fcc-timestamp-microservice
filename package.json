@@ -1,0 +1,16 @@
+{
+  "name": "timestamp-microservice",
+  "version": "1.0.0",
+  "description": "pass in a language string get out an natural date, and unix date",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Jonathan T L Lee",
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.17.0"
+  },
+  "repository": "https://github.com/Lee182/fcc-timestamp-microservice.git"
+}
